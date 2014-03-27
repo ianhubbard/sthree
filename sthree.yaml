@@ -1,0 +1,15 @@
+# ----------------------------------------------
+# S3 Fieldtype AWS access and configuration info
+# ----------------------------------------------
+
+# These fields are the API access details for your AWS account
+awsAccessKey: change-this
+awsSecretKey: change-this
+# This is the name of the end-point for the AWS API interface for your region
+# From the list here: http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
+awsEndPoint: change-this                    # eg. s3-ap-southeast-2.amazonaws.com
+# This is the name of the bucket to use in your S3 account
+awsBucket: change-this
+# This is the domain suffix for the bucket for web access for your region
+# From the list here: http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteEndpoints.html
+awsDomainSuffix: change-this                # eg. s3-website-ap-southeast-2.amazonaws.com
